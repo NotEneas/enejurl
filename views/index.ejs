@@ -1,0 +1,20 @@
+<% include header %>
+
+<h1>
+	Skrajsaj link
+</h1>
+
+<p class="lead">
+	Prilepi dolg url in ga skrajsaj.
+</p>
+
+<form action="/shorten" method="post">
+	<div class="input-group">
+		<input type="text" class="form-control form-control-lg" name="url" placeholder="Tvoj dolg url" required>
+		<span class="input-group-btn">
+			<button class="btn btn-primary btn-lg" type="submit">Skrajsaj!</button>
+		</span>
+	</div>
+</form>
+
+<% include footer %>
